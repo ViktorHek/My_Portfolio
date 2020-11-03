@@ -1,10 +1,15 @@
 import React from 'react'
+import Greeting from "./Greeting"
+import Header from "./Header"
+import Footer from "./Footer"
 
 const App = () => {
   return (
-    <h1>
-      Hello! my name is Viktor Karlsson!
-    </h1>
+  <>
+  <Header/>
+  <Greeting/>
+  <Footer/>
+  </>
   )
 }
 

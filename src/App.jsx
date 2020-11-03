@@ -1,5 +1,5 @@
 import React from 'react'
-import Greeting from "./Greeting"
+import Hello from "./Hello"
 import Header from "./Header"
 import Footer from "./Footer"
 
@@ -7,7 +7,7 @@ const App = () => {
   return (
   <>
   <Header/>
-  <Greeting/>
+  <Hello/>
   <Footer/>
   </>
   )

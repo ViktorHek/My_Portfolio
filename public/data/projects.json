@@ -1,10 +1,20 @@
 [
     {
         "id": 1,
-        "name": "My First Website"
+        "name": "My First Website",
+        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.theconversation.com%2Ffiles%2F263351%2Foriginal%2Ffile-20190312-86696-qqd56h.jpg%3Fixlib%3Drb-1.1.0%26q%3D45%26auto%3Dformat%26w%3D1200%26h%3D1200.0%26fit%3Dcrop&imgrefurl=https%3A%2F%2Ftheconversation.com%2Fwhy-science-matters-so-much-in-the-era-of-fake-news-and-fallacies-113298&tbnid=Xg-4ivf_pQ61dM&vet=12ahUKEwjg14G-uOjsAhXih4sKHeoOB94QMygEegUIARClAQ..i&docid=I0DD557Sikn1PM&w=1200&h=1200&q=fake&ved=2ahUKEwjg14G-uOjsAhXih4sKHeoOB94QMygEegUIARClAQ",
+        "description": "Won the popular vote!"
     },
     {
         "id": 2,
-        "name": "FizzBuzz"
+        "name": "UI Design",
+        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fusabilitygeek.com%2Fwp-content%2Fuploads%2F2019%2F04%2Fchoosing-the-right-ui-deliverables-lead.jpg&imgrefurl=https%3A%2F%2Fusabilitygeek.com%2Fchoosing-the-right-ui-design-deliverables%2F&tbnid=SyEN8BYt3V-MoM&vet=12ahUKEwjei_qequjsAhXCB3cKHTzQC-8QMygLegUIARCoAQ..i&docid=muymW8TDc6eK0M&w=750&h=420&q=ui%20design&ved=2ahUKEwjei_qequjsAhXCB3cKHTzQC-8QMygLegUIARCoAQ",
+        "description": "Designing user interfaces is fun."
+    },
+    {
+        "id": 3,
+        "name": "Mobile UX",
+        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F90%2F2b%2Fb8%2F902bb8da69ea1c854f7d180ac727f30f.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.se%2Fpin%2F852095191970447956%2F&tbnid=tf3U1BbQEyNl2M&vet=12ahUKEwjIjPvXqujsAhUHCHcKHS_9A7QQMygBegUIARC1AQ..i&docid=dqgyItnQ5ul6sM&w=660&h=585&itg=1&q=fat%20cat&ved=2ahUKEwjIjPvXqujsAhUHCHcKHS_9A7QQMygBegUIARC1AQ",
+        "description": "I like to design for the mobile platform"
     }
 ]

@@ -10,12 +10,12 @@ describe("User can navigate the app", () => {
         });
 
         it("displays About me header", () => {
-            cy.get("#about-header").should("contain", "Who?")
+            cy.get("#about-header").should("contain", "About Me")
         });
 
         it("displays component name in url", () => {
-            cy.url().should("contain", "Who");
-        }); /* who kanske behöver ändras */ 
+            cy.url().should("contain", "about");
+        });
 
         it("does not displays my projects header", () => {
             cy.get("#projects-header").should("not.exist");
@@ -26,13 +26,13 @@ describe("User can navigate the app", () => {
         });
     });
 
-    describe("to my project tab and it", () => {
+    describe("to My Project tab and it", () => {
         beforeEach(() => {
             cy.get("#projects-tab").click();
         });
 
         it("displays my projects header", () => {
-            cy.get("#projects-header").should("contain", "What?");
+            cy.get("#projects-header").should("contain", "My Projects");
         });
 
         it("displays component name in url", () => {
@@ -60,8 +60,8 @@ describe("User can navigate the app", () => {
 
         it("displays correct url", () => {
             cy.url()
-            .should("not.contain", "what") /* projects */
-            .and("not.contain", "who"); /* about */
+            .should("not.contain", "projects")
+            .and("not.contain", "about");
         });
 
         it("does not displays about me header", () => {

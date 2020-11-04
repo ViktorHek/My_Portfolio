@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-/*import { Container } from "semantic-ui-react";*/
 import axios from "axios";
 import { Container, Grid } from "semantic-ui-react";
 import ProjectCard from './ProjectCard'
@@ -35,7 +34,7 @@ class Projects extends Component {
           </Container>
         );
     }
-
+    
     componentDidMount() {
         axios.get("./data/projects.json").then((response) => {
             this.setState({ projects: response.data });

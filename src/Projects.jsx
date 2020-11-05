@@ -17,6 +17,12 @@ class Projects extends Component {
         ],
     };
 
+    componentDidMount() {
+        axios.get("./data/projects.json").then((response) => {
+            this.setState({ projects: response.data });
+        });
+    }
+    
     render() {
         const { projects } = this.state;
         let projectsList = projects.map((project) => {
@@ -34,12 +40,7 @@ class Projects extends Component {
           </Container>
         );
     }
-    
-    componentDidMount() {
-        axios.get("./data/projects.json").then((response) => {
-            this.setState({ projects: response.data });
-        });
-    }
+
 }
 
 export default Projects;

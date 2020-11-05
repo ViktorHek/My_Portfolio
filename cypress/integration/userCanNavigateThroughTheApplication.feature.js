@@ -28,7 +28,7 @@ describe("User can navigate the app", () => {
 
     describe("to My Project tab and it", () => {
         beforeEach(() => {
-            cy.get("#projects-tab").click();
+            cy.get("#project-tab").click();
         });
 
         it("displays my projects header", () => {

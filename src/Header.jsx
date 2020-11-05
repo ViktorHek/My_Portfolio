@@ -19,7 +19,7 @@ const Header = () => {
                     to={{ pathname: "/about" }}
                 />
                 <Menu.Item
-                    id="projects-tab"
+                    id="project-tab"
                     name="my projects"
                     as={NavLink}
                     to={{ pathname: "/projects" }}

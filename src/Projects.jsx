@@ -5,16 +5,7 @@ import ProjectCard from './ProjectCard'
 
 class Projects extends Component {
     state = {
-        projects: [
-           /* {
-                id: 1,
-                name: "My First Website",
-            },
-            {
-                id: 2,
-                name: "Fizzbuzz",
-            }, */
-        ],
+        projects: [],
     };
 
     componentDidMount() {
@@ -22,7 +13,7 @@ class Projects extends Component {
             this.setState({ projects: response.data });
         });
     }
-    
+
     render() {
         const { projects } = this.state;
         let projectsList = projects.map((project) => {
@@ -35,7 +26,7 @@ class Projects extends Component {
 
         return (
           <Container>
-            <h1 id="projects-header">My Projects</h1>
+            <h1 id="projects-header">What?</h1>
             <Grid>{projectsList}</Grid>                    
           </Container>
         );

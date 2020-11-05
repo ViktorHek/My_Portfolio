@@ -7,24 +7,24 @@ describe("User can see list of projects", () => {
     it("displays first project", () => {
         cy.get("#project-1").within(() => {
             cy.get(".image").should("exist");
-            cy.get(".header").should("contain", "My First Website") /* ändra till nåt lit */
-            cy.get(".description").should("contain", "Won the popular vote!");/* ändra till nåt lit */
+            cy.get(".header").should("contain", "This is where I've been")
+            cy.get(".description").should("contain", "I'm showing this embarrassing excuse of a website as a testament of growth");
         });
     });
 
     it("displays second project", () => {
         cy.get("#project-2").within(() => {
             cy.get(".image").should("exist");
-            cy.get(".header").should("contain", "UI Design") /* ändra till nåt lit */
-            cy.get(".description").should("contain", "Designing user interfaces is fun.");/* ändra till nåt lit */
+            cy.get(".header").should("contain", "Master Thesis (Swedish)")
+            cy.get(".description").should("contain", "Gambling-Advertisement: What is it Good fore?");
         });
     });
 
     it("displays third project", () => {
         cy.get("#project-3").within(() => {
             cy.get(".image").should("exist");
-            cy.get(".header").should("contain", "Mobile UX") /* ändra till nåt lit */
-            cy.get(".description").should("contain", "I like to design for the mobile platform.");/* ändra till nåt lit */
+            cy.get(".header").should("contain", "Self-Designed Poster")
+            cy.get(".description").should("contain", "I just like drawing");
         });
     });
 });

@@ -1,20 +1,20 @@
 [
     {
         "id": 1,
-        "name": "My First Website",
+        "name": "This is where I've been",
         "image": "/images/902bb8da69ea1c854f7d180ac727f30f.jpg",
-        "description": "Won the popular vote!"
+        "description": "I'm showing this embarrassing excuse of a website as a testament of growth"
     },
     {
         "id": 2,
-        "name": "UI Design",
-        "image": "images/902bb8da69ea1c854f7d180ac727f30f.jpg",
-        "description": "Designing user interfaces is fun."
+        "name": "Master Thesis (Swedish)",
+        "image": "/images/902bb8da69ea1c854f7d180ac727f30f.jpg",
+        "description": "Gambling-Advertisement: What is it Good fore?"
     },
     {
         "id": 3,
-        "name": "Mobile UX",
-        "image": "images/902bb8da69ea1c854f7d180ac727f30f.jpg",
-        "description": "I like to design for the mobile platform."
+        "name": "Self-Designed Poster",
+        "image": "/images/Scan_676.jpeg",
+        "description": "I just like drawing"
     }
 ]

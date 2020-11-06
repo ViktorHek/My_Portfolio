@@ -1,0 +1,28 @@
+[
+    {
+        "id": 4,
+        "name": "Educations",
+        "content1": "Full Stack Web Developer Bootcamp at Craft Academy",
+        "content2": "Media- and Communication Science at University of Gothenburg (ongoing)",
+        "content3": "Leadership and Communication at Marina Läroverkets gymnasium"
+    },
+    {
+        "id": 5,
+        "name": "Work Experience",
+        "content1": "Project Leader at Båtmässan(älvsjömässan). Jan - Mar 2013",
+        "content3": "Frontliner at UNHCR. Jun 2015",
+        "content4": "Sales Manager at Gryn & Frön UF. Sep 2013 - May 2014",
+        "content5": "Intern at Västra Hisingens Stadsdelsförvaltning (communication department). Mar - Jun 2019",
+        "content6": "waiter at Vigårda. Jul 2016 - Feb 2017"
+    },
+    {
+        "id": 6,
+        "name": "Merits",
+        "content1": "Driving license",
+        "Content2": "Ship Commander(Fartygsbefäl) Class 8",
+        "content3": "Gold medalist in the Swedish youth Championship (handball)", 
+        "content4": "Former teem captain in IFK Sollentuna",
+        "content5": "Shared third place in 'UF company of the year' 2014"
+    }
+]
+

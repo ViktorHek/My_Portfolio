@@ -28,3 +28,29 @@ describe("User can see list of projects", () => {
         });
     });
 });
+
+describe("User can see CV", () => {
+    beforeEach(() => {
+        cy.visit("http://localhost:3000");
+        cy.get("#why-tab").click();
+    });
+
+    it("displays CV - Education", () => {
+        cy.get("#CV-4").within(() => {
+            cy.get(".header").should("contain", "Educations")
+            cy.get(".content").should("contain", "* Full Stack Web Developer Bootcamp at Craft Academy /n * Leadership and Communication at Marina Läroverkets gymnasium")
+        });
+    });
+    it("displays CV - Work Experience", () => {
+        cy.get("#CV-5").within(() => {
+            cy.get(".header").should("contain", "Work Experience")
+            cy.get(".content").should("contain", "* Project Leader at Båtmässan(älvsjömässan) jan-mar 2013")
+        });
+    });
+    it("displays CV - Merits", () => {
+        cy.get("#6").within(() => {
+            cy.get(".header").should("contain", "Merits")
+            cy.get(".content").should("contain", "* Driving license /n * Ship Commander(Fartygsbefäl) Class 8")
+        });
+    });
+})

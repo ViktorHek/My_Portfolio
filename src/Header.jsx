@@ -1,9 +1,25 @@
-import React from "react";
+import React, { useState }from "react";
 import { Menu, Segment } from "semantic-ui-react";
 import { NavLink, Link } from "react-router-dom";
 
-const Header = () => {
+function Header() {
+    const[click, setClick] = useState(false);
     return (
+        <>
+        <nav className="header">
+            <div className='header-container'>
+                <div className='menu.icon'>
+                <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+                </div>
+            </div>
+        </nav>
+        </>
+    );
+};
+
+export default Header;
+ 
+/*
         <Segment inverted>
             <Menu inverted secondary>
                 <Menu.Item
@@ -38,7 +54,4 @@ const Header = () => {
                 />
             </Menu>
         </Segment>
-    );
-};
-
-export default Header;
+*/

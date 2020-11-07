@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import axios from "axios";
 import { Container, Grid } from "semantic-ui-react";
 import ProjectCard from './ProjectCard'
+import "./index.css"
 
 class Projects extends Component {
     state = {

@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "semantic-ui-react";
 import ContactForm from "./ContactForm";
+import "./index.css"
 
 const How = () => {
     return (

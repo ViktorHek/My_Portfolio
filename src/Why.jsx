@@ -1,12 +1,10 @@
 import React from "react";
-import { Container } from "semantic-ui-react";
 import Data from "./data.json"
+import "./index.css"
 
 function Why() {
     return (
         <div className="Why">
-
-            <Container>
                 <h1 id="why-header">Why?</h1>
                     <p>
                         Why should you hire me? you might ask.
@@ -28,23 +26,8 @@ function Why() {
                     )
                 })}
             </div>
-            
-            </Container>
         </div>
     )
 }
-
-
-
-/*const Why = () => {
-    return (
-        <Container>
-            <h1 id="why-header">Why?</h1>
-            <p>
-                Why should you hire me? you might ask.
-            </p>
-        </Container>
-    );
-};*/
 
 export default Why;

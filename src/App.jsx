@@ -6,6 +6,7 @@ import About from "./About"
 import Why from "./Why"
 import How from "./How"
 import Projects from "./Projects"
+import './index.css'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 function App() {

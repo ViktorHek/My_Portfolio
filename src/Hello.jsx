@@ -1,21 +1,17 @@
 import React from "react";
-import { Container } from "semantic-ui-react";
 import HeroSection from './HeroSection'
+import Cards from './Cards.js'
+import './index.css'
+import Footer from './Footer'
 
 function Hello () {
     return (
         <>
             <HeroSection />
+            <Cards />
+            <Footer />
         </>
     )
 }
-
-/* const Hello = () => {
-    return (
-        <Container>
-                        
-        </Container>
-    );
-}; */
 
 export default Hello;

@@ -1,16 +1,68 @@
 import React, { useState }from "react";
-import { Menu, Segment } from "semantic-ui-react";
+/* import { Menu, Segment } from "semantic-ui-react"; */
 import { NavLink, Link } from "react-router-dom";
+import './Header.css'
+import { Button } from './Button';
+
 
 function Header() {
     const[click, setClick] = useState(false);
+    const [button, setButton] = useState(true)
+
+    const handleClick = () => setClick(!click)
+
+    const showButton = () => {
+        if(window.innerWidth <= 960) {
+            setButton(false);
+        } else {
+            setButton(true);
+        }
+    };
+
     return (
         <>
         <nav className="header">
             <div className='header-container'>
-                <div className='menu.icon'>
-                <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-                </div>
+                <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                    <li className='nav-item'>
+                    <Link to='/' className='nav-links' >
+                        Home
+                    </Link>
+                    </li>
+                    <li className='nav-item'>
+                    <Link
+                        to='/about'
+                        className='nav-links'
+                    >
+                        Who?
+                    </Link>
+                    </li>
+                    <li className='nav-item'>
+                    <Link
+                        to='/projects'
+                        className='nav-links'
+                    >
+                        What?
+                    </Link>
+                    </li>
+                    <li className='nav-item'>
+                    <Link
+                        to='/why'
+                        className='nav-links'
+                    >
+                        Why?
+                    </Link>
+                    </li>
+                    <li className='nav-item'>
+                    <Link
+                        to='/how'
+                        className='nav-links'
+                    >
+                        How?
+                    </Link>
+                    </li>
+
+                </ul>
             </div>
         </nav>
         </>
@@ -34,6 +86,10 @@ export default Header;
                     as={NavLink}
                     to={{ pathname: "/about" }}
                 />
+
+            {button && <Button buttonStyle='bts--outline'>Contact Me!</Button>}
+
+
                 <Menu.Item
                     id="project-tab"
                     name="What?"

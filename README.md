@@ -5,6 +5,7 @@
 * change 'content' in data.json to 1 instead of several
 * add background image
 * do something crazy (wow-factor) 
+* finde or create a dope logo
 
 ### agnolegment 
 

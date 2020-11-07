@@ -11,14 +11,6 @@ function Header() {
 
     const handleClick = () => setClick(!click)
 
-    const showButton = () => {
-        if(window.innerWidth <= 960) {
-            setButton(false);
-        } else {
-            setButton(true);
-        }
-    };
-
     return (
         <>
         <nav className="header">
@@ -86,6 +78,14 @@ export default Header;
                     as={NavLink}
                     to={{ pathname: "/about" }}
                 />
+
+                    const showButton = () => {
+        if(window.innerWidth <= 960) {
+            setButton(false);
+        } else {
+            setButton(true);
+        }
+    };
 
             {button && <Button buttonStyle='bts--outline'>Contact Me!</Button>}
 

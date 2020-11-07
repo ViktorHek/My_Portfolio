@@ -5,7 +5,8 @@
 * change 'content' in data.json to 1 instead of several
 * add background image
 * do something crazy (wow-factor) 
-* finde or create a dope logo
+* find or create a dope logo
+* when you reduce the screen, the menu disappears. fix that or add hamburger menu and go back to Brian Design video.
 
 ### agnolegment 
 

@@ -1,12 +1,21 @@
 import React from "react";
 import { Container } from "semantic-ui-react";
+import HeroSection from './HeroSection'
 
-const Hello = () => {
+function Hello () {
+    return (
+        <>
+            <HeroSection />
+        </>
+    )
+}
+
+/* const Hello = () => {
     return (
         <Container>
-                        <h1 id="hello">Hello! my name is Viktor Karlsson!</h1>
+                        
         </Container>
     );
-};
+}; */
 
 export default Hello;

@@ -18,6 +18,7 @@
 }
 
 .about {
+  background-image: '/images/img-1.jpg';
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -47,4 +48,18 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+.footer-container {
+  background-color: black;
+}
+
+.disclaimer,
+.footer {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
 }

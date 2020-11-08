@@ -1,10 +1,11 @@
 import React from "react";
+import './index.css'
 
-const Footer = () => {
+function Footer() {
     return (
-        <footer>
-            <h1 id="disclaimer"> most css properties is taken from Brian Design (Youtube channel) https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A" </h1>
-            <h2 id="footer">Made with React {React.version}</h2>
+        <footer className="footer-container">
+            <h2 className="footer">Made with React {React.version}</h2>
+            <h2 className="disclaimer"> most css properties is taken from Brian Design (Youtube channel)</h2>
         </footer>
     );
 };

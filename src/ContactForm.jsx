@@ -31,7 +31,7 @@ class ContactForm extends Component {
             <form onSubmit={this.handleSubmit} netlify name="contact">
                 <input type="hidden" name="form-name" value="contact" />
                 <p>
-                    <label>
+                    <label className="Contact-form-info">
                         Your Name:
                         <input
                             type="text"
@@ -42,7 +42,7 @@ class ContactForm extends Component {
                     </label>
                 </p>
                 <p>
-                    <label>
+                    <label className="Contact-form-info">
                         Your Email:
                         <input
                             type="email"
@@ -53,7 +53,7 @@ class ContactForm extends Component {
                     </label>
                 </p>
                 <p>
-                    <label>
+                    <label className="Contact-form-info">
                         Message:
                         <textarea
                             name="message"

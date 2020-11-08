@@ -19,6 +19,7 @@ class Projects extends Component {
         const { projects } = this.state;
         let projectsList = projects.map((project) => {
             return (
+
                 <div id={`project-${project.id}`} key={project.id}>
                     <ProjectCard project={project} />
                 </div>

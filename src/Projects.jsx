@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import axios from "axios";
 import { Container, Grid } from "semantic-ui-react";
 import ProjectCard from './ProjectCard'
+import "./index.css"
 
 class Projects extends Component {
     state = {
@@ -18,6 +19,7 @@ class Projects extends Component {
         const { projects } = this.state;
         let projectsList = projects.map((project) => {
             return (
+
                 <div id={`project-${project.id}`} key={project.id}>
                     <ProjectCard project={project} />
                 </div>

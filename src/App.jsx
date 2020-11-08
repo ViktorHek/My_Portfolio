@@ -6,12 +6,14 @@ import About from "./About"
 import Why from "./Why"
 import How from "./How"
 import Projects from "./Projects"
-import { Switch, Route } from 'react-router-dom'
+import './index.css'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
-const App = () => {
+function App() {
   return (
     <>
-      <Header />
+      <Router>
+        <Header/>
         <Switch>
           <Route exact path="/" component={Hello}></Route>
           <Route exact path="/about" component={About}></Route>
@@ -20,7 +22,8 @@ const App = () => {
           <Route exact path="/how" component={How}></Route>
           <Hello />
         </Switch>
-      <Footer />
+        <Footer />
+      </Router>
     </>
   )
 }

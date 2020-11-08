@@ -1,13 +1,12 @@
 import React from "react";
 import { Container } from "semantic-ui-react";
+import './index.css'
+import Herowho from './Herowho'
 
 const About = () => {
     return (
         <Container>
-            <h1 id="about-header">Who?</h1>
-            <p>
-                i'm viktor, student at craft academy and i write code
-            </p>
+            <Herowho />
         </Container>
     );
 };

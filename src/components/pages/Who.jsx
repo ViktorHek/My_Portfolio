@@ -1,7 +1,7 @@
 import React from "react";
-import "./index.css";
+import "../../index.css";
 
-const About = () => {
+const Who = () => {
   return (
     <>
       <div className="pageContainer">
@@ -40,4 +40,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Who;

@@ -17,7 +17,7 @@ function Header() {
                         </li>
                         <li className='nav-item'>
                         <Link
-                            to='/about'
+                            to='/who'
                             className='nav-links'
                         >
                             Who?
@@ -25,7 +25,7 @@ function Header() {
                         </li>
                         <li className='nav-item'>
                         <Link
-                            to='/projects'
+                            to='/what'
                             className='nav-links'
                         >
                             What?

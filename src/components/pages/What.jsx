@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import axios from "axios";
 import { Grid } from "semantic-ui-react";
-import ProjectCard from './ProjectCard'
-import "./index.css"
+import ProjectCard from '../ProjectCard'
+import "../../index.css"
 
-class Projects extends Component {
+class What extends Component {
     state = {
         projects: [],
     };
@@ -36,4 +36,4 @@ class Projects extends Component {
 
 }
 
-export default Projects;
+export default What;

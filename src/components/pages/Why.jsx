@@ -1,6 +1,6 @@
 import React from "react";
-import "./index.css";
-import Data from "./data.json";
+import "../../index.css";
+import Data from "../../data.json";
 
 function Why() {
   return (

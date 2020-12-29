@@ -27,7 +27,7 @@ class What extends Component {
         });
 
         return (
-          <div className="pageContainer">
+          <div className="whatContainer">
             <h1 id="projects-header">What?</h1>
             <Grid>{projectsList}</Grid>                    
           </div>

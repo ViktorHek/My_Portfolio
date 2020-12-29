@@ -13,13 +13,13 @@ function Cards() {
                         src="images/img-1.jpg"
                         text="Learn some things about me! You can see it as a Personal Letter or just a brief introduction"
                         label="Who?"
-                        path="/about"
+                        path="/who"
                         />
                         <CardItem 
                         src="images/img-2.jpg"
                         text="Take a look at what i've done. At the moment it's not much though :("
                         label="What?"
-                        path="/projects"
+                        path="/what"
                         />
                         <CardItem 
                         src="images/img-3.jpg"

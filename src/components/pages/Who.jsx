@@ -4,7 +4,7 @@ import "../../index.css";
 const Who = () => {
   return (
     <>
-      <div className="pageContainer">
+      <div className="whoContainer">
         <h1 id="about-header">Hey! My name is Viktor Karlsson</h1>
         <p>
           I’m a music nerd graduate in social

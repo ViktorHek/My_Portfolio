@@ -5,11 +5,11 @@
   font-family: 'PT Sans', sans-serif;
 }
 
-.hello,
-.about,
-.projects,
-.why,
-.how {
+.homeContainer,
+.whoContainer,
+.whatContainer,
+.whyContainer,
+.howContainer {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -17,57 +17,35 @@
   font-size: 3rem;
 }
 
-.about {
-  background-image: '/images/img-1.jpg';
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-/* .whoImage {
-  background-position: center;
-  background-size: cover;
-  z-index: 1;
-} */
-
-.pageContainer {
+.whoContainer {
   background-image: url('Scan.jpeg');
   background-position: center;
   background-size: cover;
   color: black;
   font-size: 100px;
-  /* height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-  object-fit: contain; */
 }
 
-.projects {
+.whatContainer {
+  background-image: url('Scan.jpeg');
   background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
+  background-size: cover;
+  color: black;
   font-size: 100px;
 }
 
-.why {
+.whyContainer {
+  background-image: url('Scan.jpeg');
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
+  color: black;
   font-size: 100px;
 }
 
-.how {
+.howContainer {
+  background-image: url('Scan.jpeg');
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
+  color: black;
   font-size: 100px;
 }
 

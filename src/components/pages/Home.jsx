@@ -5,10 +5,10 @@ import '../../index.css'
 
 function Home () {
     return (
-        <>
+        <div classname="homeContainer">
             <HeroSection />
             <Cards />
-        </>
+        </div>
     )
 }
 

@@ -4,7 +4,7 @@ import ContactForm from "../ContactForm";
 
 const How = () => {
   return (
-    <div className="pageContainer">
+    <div className="howContainer">
       <h1 id="how-header">How?</h1>
       <p>
         Oh! so you want to know how to get in contact with me? i'm glad to hear!

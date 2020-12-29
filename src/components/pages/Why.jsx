@@ -4,7 +4,7 @@ import Data from "../../data.json";
 
 function Why() {
   return (
-    <div className="pageContainer">
+    <div className="whyContainer">
       <h1 id="why-header">Why?</h1>
       <p>Why should you hire me? you might ask.</p>
 

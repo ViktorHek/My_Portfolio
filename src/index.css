@@ -26,6 +26,27 @@
   font-size: 100px;
 }
 
+/* .whoImage {
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+} */
+
+.pageContainer {
+  background-image: url('Scan.jpeg');
+  background-position: center;
+  background-size: cover;
+  color: black;
+  font-size: 100px;
+  /* height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain; */
+}
+
 .projects {
   background-position: center;
   background-size: fill;

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import { Container, Grid } from "semantic-ui-react";
+import { Grid } from "semantic-ui-react";
 import ProjectCard from './ProjectCard'
 import "./index.css"
 
@@ -27,10 +27,10 @@ class Projects extends Component {
         });
 
         return (
-          <Container>
+          <div className="pageContainer">
             <h1 id="projects-header">What?</h1>
             <Grid>{projectsList}</Grid>                    
-          </Container>
+          </div>
         );
     }
 

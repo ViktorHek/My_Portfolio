@@ -21,24 +21,31 @@
   background-image: url('Scan.jpeg');
   background-position: center;
   background-size: cover;
-  color: black;
-  font-size: 100px;
+}
+
+.whoText {
+  font-size: 20px;
 }
 
 .whatContainer {
   background-image: url('Scan.jpeg');
   background-position: center;
   background-size: cover;
-  color: black;
-  font-size: 100px;
+}
+
+.whatContainer {
+  font-size: 20px;
 }
 
 .whyContainer {
   background-image: url('Scan.jpeg');
   background-position: center;
   background-size: cover;
+}
+
+.whyText {
   color: black;
-  font-size: 100px;
+  font-size: 40px;
 }
 
 .howContainer {
@@ -47,6 +54,11 @@
   background-size: cover;
   color: black;
   font-size: 100px;
+}
+
+.howText {
+  color: black;
+  font-size: 40px;
 }
 
 .footer-container {

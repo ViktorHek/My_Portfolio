@@ -6,7 +6,9 @@ function Why() {
   return (
     <div className="whyContainer">
       <div>
-        <h1 id="why-header" className="whyHeader">Why should you hire me? you might ask</h1>
+        <h1 id="why-header" className="whyHeader">
+          Why should you hire me? you might ask
+        </h1>
         <div className="whyText">
           {Data.map((post) => {
             return (

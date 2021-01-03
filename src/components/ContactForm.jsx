@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Button from "./Button"
+import Button from "./Button";
 
 const encode = (data) => {
   return Object.keys(data)
@@ -25,7 +25,7 @@ class ContactForm extends Component {
   };
 
   handleChange = (e) => this.setState({ [e.target.name]: e.target.value });
-  debugger
+  debugger;
 
   render() {
     const { name, email, message } = this.state;
@@ -65,7 +65,9 @@ class ContactForm extends Component {
           </label>
         </p>
         <p>
-          <Button type="submit" buttonStyle="btn--outline">Send!</Button>
+          <Button type="submit" buttonStyle="btn--outline">
+            Send!
+          </Button>
         </p>
       </form>
     );

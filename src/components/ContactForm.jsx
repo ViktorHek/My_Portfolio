@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Button from "./Button"
 
 const encode = (data) => {
   return Object.keys(data)
@@ -64,7 +65,7 @@ class ContactForm extends Component {
           </label>
         </p>
         <p>
-          <button type="submit">Send!</button>
+          <Button type="submit" buttonStyle="btn--outline">Send!</Button>
         </p>
       </form>
     );

@@ -5,9 +5,9 @@ import Data from "../../data.json";
 function Why() {
   return (
     <div className="whyContainer">
-      <div className="whyText">
-        <h1 id="why-header">Why should you hire me? you might ask</h1>
-        <div>
+      <div>
+        <h1 id="why-header" className="whyHeader">Why should you hire me? you might ask</h1>
+        <div className="whyText">
           {Data.map((post) => {
             return (
               <div key={post.id}>

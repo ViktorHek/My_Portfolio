@@ -28,7 +28,7 @@ class What extends Component {
     return (
       <div className="whatContainer">
         <div className="whatText">
-          <h1 id="projects-header">What I have done</h1>
+          <h1 id="projects-header" className="whatHeader">What I have done</h1>
           <Grid>{projectsList}</Grid>
         </div>
       </div>

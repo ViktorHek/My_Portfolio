@@ -6,11 +6,10 @@ const How = () => {
   return (
     <div className="howContainer">
       <div className="howText">
-        <h1 id="how-header">How?</h1>
-        <p>
+        <h1>
           Oh! so you want to know how to get in contact with me? i'm glad to
           hear!
-        </p>
+        </h1>
         <div>
           <ContactForm />
         </div>

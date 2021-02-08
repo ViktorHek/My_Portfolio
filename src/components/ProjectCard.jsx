@@ -9,7 +9,7 @@ const ProjectCard = ({ project }) => {
         <Card.Description>{project.description}</Card.Description>
       </Card.Content>
       <Card.Content extra>
-        <a>{project.language}</a>
+        <h5>{project.language}</h5>
       </Card.Content>
     </Card>
   )

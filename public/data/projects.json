@@ -9,30 +9,30 @@
         "id": 2,
         "name": "Revisarik",
         "description": "Restaurant web-page",
-        "language": "React, Java Script & Ruby on Rails",
+        "language": "React, Java Script & Ruby on Rails"
     },
     {
         "id": 3,
         "name": "Dream Times News",
         "description": "Fully-featured news platform",
-        "language": "React, Java Script & Ruby on Rails",
+        "language": "React, Java Script & Ruby on Rails"
     },
     {
         "id": 4,
         "name": "Trumpster",
         "description": "Web-page using an external API, that provides you with the dumbest things Donald Trump has said",
-        "language": "React, Java Script & Ruby on Rails",
+        "language": "React, Java Script & Ruby on Rails"
     },
     {
         "id": 5,
         "name": "Cooper",
         "description": "Web-page that calculates your BMI and allows you to track your results",
-        "language": "React, Java Script & Ruby on Rails",
+        "language": "React, Java Script & Ruby on Rails"
     },
     {
         "id": 6,
         "name": "Rock Paper Scissor",
         "description": "Rock, paper & Scissor game: Pokemon Edition",
-        "language": "React & Java Script",
+        "language": "React & Java Script"
     }
 ]

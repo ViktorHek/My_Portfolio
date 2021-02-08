@@ -1,5 +1,6 @@
-import React from "react";
-import { Card, Button, Icon } from "semantic-ui-react";
+import React from 'react'
+import { Card } from 'semantic-ui-react'
+// import { Card, Button, Icon } from 'semantic-ui-react'
 
 const ProjectCard = ({ project }) => {
   return (
@@ -12,12 +13,10 @@ const ProjectCard = ({ project }) => {
         </Button> */}
       </Card.Content>
       <Card.Content extra>
-        <a>
-          {project.language}
-        </a>
+        <a>{project.language}</a>
       </Card.Content>
     </Card>
-  );
-};
+  )
+}
 
-export default ProjectCard;
+export default ProjectCard

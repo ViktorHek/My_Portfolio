@@ -25,11 +25,17 @@
 
 .whoText {
   font-size: 20px;
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: rgb(28, 27, 27, 0.9);
   margin-left: 30px;
   margin-right: 30px;
   padding: 10px;
+}
+
+.whoTextTitle {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
 }
 
 .whatContainer {

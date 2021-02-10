@@ -34,7 +34,7 @@ class ContactForm extends Component {
         <input type="hidden" name="form-name" value="contact" />
         <p>
           <label>
-            Your Name:
+            Your Name: 
             <input
               type="text"
               name="name"
@@ -45,7 +45,7 @@ class ContactForm extends Component {
         </p>
         <p>
           <label>
-            Your Email:
+            Your Email: 
             <input
               type="email"
               name="email"
@@ -56,7 +56,7 @@ class ContactForm extends Component {
         </p>
         <p>
           <label>
-            Message:
+            Message: 
             <textarea
               name="message"
               value={message}

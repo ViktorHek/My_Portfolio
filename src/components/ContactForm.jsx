@@ -25,12 +25,11 @@ class ContactForm extends Component {
   };
 
   handleChange = (e) => this.setState({ [e.target.name]: e.target.value });
-  debugger;
 
   render() {
     const { name, email, message } = this.state;
     return (
-      <form onSubmit={this.handleSubmit} netlify name="contact">
+      <form onSubmit={this.handleSubmit} name="contact" method="POST" data-netlify="true">
         <input type="hidden" name="form-name" value="contact" />
         <p>
           <label>

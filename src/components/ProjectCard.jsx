@@ -8,8 +8,13 @@ const ProjectCard = ({ project }) => {
         <h2>{project.name}</h2>
         <Card.Description>{project.description}</Card.Description>
         <Button icon href={project.link}>
-          <Icon name="external alternate" />
+          Client
         </Button>
+        {project.link2 && (
+          <Button icon href={project.link2}>
+            API
+          </Button>
+        )}
       </Card.Content>
       <Card.Content extra>
         <h5>{project.language}</h5>

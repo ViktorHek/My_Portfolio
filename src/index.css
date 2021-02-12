@@ -5,6 +5,11 @@
   font-family: 'PT Sans', sans-serif;
 }
 
+.mainContainer {
+  margin: 0;
+  padding: 0;
+}
+
 .homeContainer,
 .whoContainer,
 .whatContainer,

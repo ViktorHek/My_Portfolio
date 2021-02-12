@@ -3,7 +3,7 @@ import '../../index.css'
 
 const Who = () => {
   return (
-    <>
+    <div classname="mainContainer">
       <div className="whoContainer">
         <div className="whoText">
           <h1 id="about-header">Who am I?</h1>
@@ -43,7 +43,7 @@ const Who = () => {
           </p>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
